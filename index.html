@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="todo.css">
+    <!-- <script src="todo.js"></script> -->
+  </head>
+  <body>
+
+    <div class="header">
+      <h2 style="margin:5px">To Do List</h2>
+      <input type="text" id="myInput" placeholder="Ex: Lavar o banheiro">
+      <span onclick="newElement()" class="addBtn">Add</span>
+    </div>
+
+    <ul id="myUL">
+      <li class="checked">Aprender html</li>
+      <li>Aprender css</li>
+      <li>Aprender JS</li>
+    </ul>
+
+
+    <button type="button" id="clear-list" onclick="removeAll()">Clear Items</button>
+    <script type="text/javascript" src="todo.js"></script>
+
+  </body>
+</html>
